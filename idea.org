@@ -1,0 +1,64 @@
+* Self checking simulation code
+This code should be written in the first part of simulation.
+1. This code will step the process through the different steps defined in the control code
+2. If there are no enable conditions other than step change, it will check the alarms, its re-ring and glossary and update a log file
+3. After all the alarms have been verified, the update log file can be taken from the VAX and compared against the PCSD or similar input document
+
+Intent:
+1. Reduce the control code check out time
+2. Enable reviewer to verify the settings and verify only if BoC is followed or not
+3. Output log file remains a proof of testing
+
+* Creating custom made email messages for repeated events
+There are email messages sent out on a regular basis in different intervals.
+Examples:
+ - Feel good friday emails
+ - dBeSafe - BBP reminder emails
+ - Late stay / weekend work permission emails
+
+The objective is to create such emails with one click of a button with most information being filled in by a template.
+Fields that need customized can be presented either as drop-downs or as dialogs to answer before the email is created.
+
+** Example: 
+*** FGF
+Feel good Friday emails are the same every month. They are sent out on
+the last Thursday of every month indicating that the next day would be
+a "Feel good" Friday. It also specifies the dress code for the
+occasion. This process should be automated.
+
+Cases:
+1. What if the preceding Thursday is a holiday? The email should be
+   sent out on Wednesday (if not a holiday) or on Tuesday if Wednesday
+   was a holiday too.
+2. What if the last Friday falls on a holiday? The email should be
+   sent out on preceding Thursday / Wednesday to celebrate the event
+   on previous (last but one) Friday of the month.
+
+What does the email contain?
+
+1. Standard Feel Good Friday message and the dress code.
+
+What should the template do or have?
+
+1. The template should have the standard non-changing content with FGF date and time
+2. A dialog to request
+   - Venue (Level information)
+   - Dress code
+
+How should this work?
+
+1. Depending on whether the last Friday is a working day or not, the
+   program should start checking the calendar on the last but one
+   Tuesday.
+2. If the last Friday is a holiday, then on the last but one Tuesday
+   ascertain if the coming Wednesday / Thursday is working day or
+   not. If they are holidays, on Tuesday prompt a reminder that FGF
+   email has to be sent out.
+3. When the user clicks on the reminder, prompt a dialog with venue and dress code information
+4. Allow the user to preview the email after it has been composed with the information provided in the dialog
+5. Ask the user for permission to send out the email immediately to the selected mail groups
+6. Provide an option to send out the email at a later point in time
+7. If the email was not sent out from the designated person, send out escalation emails with link to the FGF emails to supervisor
+8. Provide option to select more than one escalation point
+*** dBesafe BBP reminder
+*** Late stay / weekend work permission emails
