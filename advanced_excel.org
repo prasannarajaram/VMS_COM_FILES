@@ -1,0 +1,200 @@
+
+Course content from Udemy.com
+
+
+Curriculum For This Course 
+
+* Using Mathematical Functions
+  :PROPERTIES:
+  :Effort:   32:15
+  :END:
+** DONE 0201 The Basic SUM, COUNT, MIN, And MAX  
+
+** DONE 0202 AVERAGE, MODE, MEAN, And MEDIAN 
+0203 SUMIF For Selective Adding Up  
+0204 COUNTIF For Selective Counting 
+0205 AVERAGEIF For The Mean Of Selected Cells 
+0206 Multiple Criteria Within SUMIF, COUNTIF, And AVERAGEIF 
+0207 Area And Volume Calculations 
+* IF Functionality  
+  :PROPERTIES:
+  :Effort:   34:32
+  :END:
+0301 IF Syntax And Uses 
+0302 Nesting The IF Statement  
+0303 Use Of The AND Operator Within An IF 
+0304 Use Of The OR Operator Within An IF 
+0305 The NOT Operator Within AND And OR Statements  
+0306 Display Cell Formulas In Another Cell 
+* Performing Data Lookups  
+  :PROPERTIES:
+  :Effort:   36:37
+  :END:
+0401 VLOOKUP: Syntax And Usage  
+0402 VLOOKUP In Live Action 
+0403 HLOOKUP: Variation On A Theme 
+0404 Using A Near Match In The Lookup 
+0405 Dealing With Missing Data In A Lookup  
+0406 Managing The Lookup Table 
+0407 Lookups Nested Within Lookups 
+* Sparklines  
+  :PROPERTIES:
+  :Effort:   18:20
+  :END:
+0501 Creating A Sparkline 
+0502 Altering The Design Of Sparklines 
+0503 Dealing With Empty Cells 
+0504 Comparing Sparklines Within A Sparkline Group 
+0505 Removing Sparklines From A Worksheet 
+* Time and Date Functions, Random # Generator  
+  :PROPERTIES:
+  :Effort:   43:55
+  :END:
+0601 Working With Time In Excel 
+0602 Calculations Using Time 
+0603 Useful Time And Date Functions 
+0604 Rounding Decimal Places 
+0605 MOD And INT Functions And Uses 
+0606 Generate And Use A Random Number 
+0607 Loan And Investment Calculations 
+0608 Loan Calculation Elements And Functions 
+* Outlining  
+  :PROPERTIES:
+  :Effort:   13:48
+  :END:
+0701 Create An Outline Automatically 
+0702 Adding An Outline Manually 
+0703 Editing And Removing Outlining 
+* Scenarios  
+  :PROPERTIES:
+  :Effort:   21:50
+  :END:
+0801 Setting Up A Set Of Scenarios 
+0802 Displaying And Editing The Different Scenarios 
+0803 How To Work Out Which Scenario You Are Displaying 
+0804 Merging And Deleting Scenarios 
+0805 Producing A Summary Of Scenarios 
+* Custom Views  
+  :PROPERTIES:
+  :Effort:   14:54
+  :END:
+0901 Custom Views Explained 
+0902 Use Of Outlining To Help Setup Custom Views 
+0903 Editing And Deleting Custom Views 
+0904 Add Quick Access To Custom Views 
+* Functions For Manipulating Text  
+  :PROPERTIES:
+  :Effort:   46:37
+  :END:
+1001 LEFT And RIGHT: Text Manipulation 
+1002 LEN And TRIM: String Extractions 
+1003 FIND And MID: Text Functions Working Together 
+1004 CONCATENATE: Building Strings From Multiple Cells 
+1005 Changing Case Functions 
+1006 REPLACE And SUBSTITUTE: Two More String Manipulation Functions 
+1007 Use Of CHAR Function For More Obscure Characters 
+1008 Formatting Numeric And Date Values Using TEXT 
+1009 Keeping The Values Created By String Manipulation 
+* Arrays  
+  :PROPERTIES:
+  :Effort:   24:01
+  :END:
+1101 Arrays And Creating A New Array Formula    
+1102 Array Formulas With IF Statements    
+1103 Conditional Evaluation With No IFs    
+1104 The Array-Only TRANSPOSE Function    
+* Useful Data Functions  
+  :PROPERTIES:
+  :Effort:   23:49
+  :END:
+1201 Using The MATCH Function    
+1202 How The INDEX Function Works    
+1203 Handling Out Of Range Index Requests    
+1204 The CHOOSE Lookup Function    
+1205 MATCH And INDEX Functions Working Together    
+* IS, Offset, Indirect & Cell Functions  
+  :PROPERTIES:
+  :Effort:   33:59
+  :END:
+1301 Introducing IS Functions    
+1302 Error Checking Using ISERR, ISERROR, And IFERROR    
+1303 OFFSET Function Syntax    
+1304 OFFSET Function: Creating A Dynamic Named Range    
+1305 INDIRECT Function To Build Dynamic Formulas    
+1306 Dealing With INDIRECT Errors    
+1307 The CELL Function And Determining File Or Sheet Names    
+* Auditing And Troubleshooting Formulas  
+  :PROPERTIES:
+  :Effort:   21:36
+  :END:
+1401 What Are Tracer Arrows    
+1402 Adding And Removing Tracer Arrows    
+1403 Auditing Tools: Error Checking And Tracing    
+1404 Step-By-Step Formula Processing    
+1405 Using The Watch Window In Troubleshooting    
+* PivotTables  
+  :PROPERTIES:
+  :Effort:   1:30:47
+  :END:
+1501 What Is A PivotTable?    
+1502 The New Recommended PivotTable Route    
+1503 Creating Your Own PivotTables    
+1504 Changing The Formatting And Formulas In PivotTable Summaries    
+1505 Creating Multiple PivotTables On The Same Dataset    
+1506 Moving And Deleting PivotTables    
+1507 Making Use Of The Report Filter Options    
+1508 Sorting The PivotTable Columns    
+1509 Refreshing A PivotTable    
+1510 Drilling Down Behind The Pivot Numbers    
+1511 Multiple Fields In Row, Column, Or Data Sections    
+1512 Controlling Grand Totals And Subtotals    
+1513 Dealing With Empty Cells And Other Additional Options    
+1514 PivotTable Styles    
+1515 Creating Your Own PivotTable Styles    
+1516 Creating And Using Calculated Fields    
+1517 Using The New Timeline Filter Option    
+1518 Adding And Using The Data Slicer    
+1519 Using Data From An SQL Server In A PivotTable    
+1520 Managing The External Connection To SQL Server    
+* PivotCharts  
+  :PROPERTIES:
+  :Effort:   28:46
+  :END:
+1601 Creating A PivotChart    
+1602 Changing The Fields Used In A PivotChart    
+1603 Formatting The PivotChart    
+1604 Changing The PivotChart Type    
+1605 Filtering A PivotChart    
+1606 Hiding The PivotChart Buttons    
+1607 Moving And Deleting PivotCharts    
+* Goal Seek And Solver  
+  :PROPERTIES:
+  :Effort:   15:10
+  :END:
+1701 What-If Analysis Using Goal Seek    
+1702 Activating The Solver Add-In    
+1703 Using Solver To Complete A What-If    
+1704 Adding Constraints To Solver    
+* Macros  
+  :PROPERTIES:
+  :Effort:   1:14:48
+  :END:
+1801 What Is A Macro    
+1802 Creating And Running Your First Macro    
+1803 Saving Workbooks With Macros    
+1804 Macro Security Settings For Workbooks With Macros    
+1805 The Personal Macro Workbook    
+1806 Deleting Macros    
+1807 Use Of Relative Or Absolute Referencing    
+1808 Trigger A Macro With A Keyboard Shortcut    
+1809 Formatting With A Macro    
+1810 Switch Scenarios And Views With Macros    
+1811 Use Of Worksheet Buttons To Trigger Macros    
+1812 Customizing Form Buttons And Other Shape Triggers    
+1813 Assigning Macros To Ribbon Icons    
+1814 Create Your Own Ribbon    
+1815 View And Edit Macro Code    
+1816 Add An Are You Sure Box To Macros    
+
+
+
